@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.1",
+    "libraryName": "copy-move",
+    "libraryId": "62e9f22f-4333-42aa-a255-739a71207d91",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Copy Move",
+    "solutionShortDescription": "Copy Move description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "copy-move-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/copyMove/CopyMoveWebPart.js",
+          "manifest": "./src/webparts/copyMove/CopyMoveWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CopyMoveWebPartStrings": "lib/webparts/copyMove/loc/{locale}.js"
+  }
+}
